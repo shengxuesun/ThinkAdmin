@@ -47,7 +47,7 @@ return [
     // 默认操作名
     'default_action'        => 'index',
     // 操作方法后缀
-    'action_suffix'         => '',
+    'action_suffix'         => 'html',
     // 默认JSONP格式返回的处理方法
     'default_jsonp_handler' => 'jsonpReturn',
     // 默认JSONP处理方法
