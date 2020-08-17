@@ -30,11 +30,11 @@ return [
             // 服务器地址
             'hostname'          => 'localhost',
             // 数据库名
-            'database'          => 'admin_v6',
+            'database'          => 'dev_lilac',
             // 用户名
-            'username'          => 'postgres',
+            'username'          => 'dev',
             // 密码
-            'password'          => 'phpcj',
+            'password'          => 'kingking',
             // 端口
             'hostport'          => '5432',
             // 数据库连接参数
