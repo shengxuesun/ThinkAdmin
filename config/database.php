@@ -28,7 +28,7 @@ return [
             // 数据库类型
             'type'              => 'pgsql',
             // 服务器地址
-            'hostname'          => '127.0.0.1',
+            'hostname'          => 'postgres',
             // 数据库名
             'database'          => 'dev_lilac',
             // 用户名
