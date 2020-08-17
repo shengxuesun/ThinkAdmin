@@ -275,7 +275,8 @@ $(function () {
             if (typeof params.spm !== 'string') {
                 params.spm = obj && obj.getAttribute('data-menu-node') || this.queryNode(uri);
             }
-            if (typeof params.spm !== 'string' || params.spm.length < 1) delete params.spm;
+            //if (typeof params.spm !== 'string' || params.spm.length < 1) delete params.spm;
+            delete params.spm;
             // 生成新的 URL 参数
             var attrs = [];
             for (var i in params) attrs.push([i, params[i]].join('='));
